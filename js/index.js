@@ -37,4 +37,9 @@ const onLoad = async () => {
     }
 };
 
+const unload = () => {
+    localStorage.clear();
+};
+
 document.addEventListener("DOMContentLoaded", onLoad);
+document.addEventListener("unload", unload);
