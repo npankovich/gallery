@@ -1,0 +1,51 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+body a {
+    color: #000000;
+}
+.imagesWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageLink {
+    width: 200px;
+    text-decoration: none;
+}
+
+.userName {
+    width: 100%;
+}
+
+.description {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.backButton {
+    height: 35px;
+    width: 70px;
+    display: block;
+    line-height: 35px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menu {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
